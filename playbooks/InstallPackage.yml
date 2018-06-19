@@ -1,6 +1,7 @@
 ---
 - name: Install Package
   hosts: '{{ hosts }}'
+  user: root
   
   tasks:
   - name: install package {{ package_name }}
