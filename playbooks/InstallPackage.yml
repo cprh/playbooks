@@ -1,7 +1,7 @@
 ---
 - name: Install Package
   hosts: '{{ hosts }}'
-  user: root
+  user: '{{ users }}'
   gather_facts: no
   
   tasks:
